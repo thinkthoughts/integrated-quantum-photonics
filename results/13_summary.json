@@ -1,0 +1,32 @@
+[
+  {
+    "Process":"Pump laser",
+    "Classical view":"Provides optical power",
+    "Quantum consequence":"Drives pair generation",
+    "Engineering resource":"Input"
+  },
+  {
+    "Process":"Kerr \u03c7\u00b3",
+    "Classical view":"Nonlinear mixing",
+    "Quantum consequence":"Vacuum fluctuations can be amplified",
+    "Engineering resource":"Interaction"
+  },
+  {
+    "Process":"Four-wave mixing",
+    "Classical view":"Generates sidebands",
+    "Quantum consequence":"Creates signal-idler pairs",
+    "Engineering resource":"Symmetric modes"
+  },
+  {
+    "Process":"Two-mode squeezing",
+    "Classical view":"Joint quadrature change",
+    "Quantum consequence":"Correlated fluctuations",
+    "Engineering resource":"Entanglement primitive"
+  },
+  {
+    "Process":"Frequency comb",
+    "Classical view":"Many colors",
+    "Quantum consequence":"Many frequency-bin resources",
+    "Engineering resource":"Scalable platform"
+  }
+]

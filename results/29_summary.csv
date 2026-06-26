@@ -1,0 +1,6 @@
+Constraint,Physical effect,Computational consequence,Engineering priority
+Finite squeezing,Weaker quadrature correlations,Lower logical fidelity,Improve nonlinear interaction and squeezing level
+Optical loss,Node and edge degradation,Graph fragmentation,Reduce propagation and coupling loss
+Detection efficiency,Noisier quadrature measurements,Reduced success probability,Improve homodyne/readout efficiency
+Feed-forward latency,Delayed adaptive basis updates,Reduced algorithm speed/depth,Integrate electronics and control
+Mode control,Mode mixing and routing errors,Incorrect graph connectivity,Programmable photonics and stabilization

@@ -1,0 +1,6 @@
+Resource,Physical meaning,Computational role,Next engineering challenge
+Frequency mode,Optical channel,Graph node,Stabilization
+Two-mode squeezing,Pair resource,Graph edge,Higher squeezing
+Graph connectivity,Entanglement lattice,Computational substrate,Programmability
+Measurement,Quadrature readout,Executes algorithm,Fast feed-forward
+Cluster state,Multipartite entangled resource,Measurement-based quantum computer,Fault tolerance

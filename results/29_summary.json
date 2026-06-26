@@ -1,0 +1,32 @@
+[
+  {
+    "Constraint":"Finite squeezing",
+    "Physical effect":"Weaker quadrature correlations",
+    "Computational consequence":"Lower logical fidelity",
+    "Engineering priority":"Improve nonlinear interaction and squeezing level"
+  },
+  {
+    "Constraint":"Optical loss",
+    "Physical effect":"Node and edge degradation",
+    "Computational consequence":"Graph fragmentation",
+    "Engineering priority":"Reduce propagation and coupling loss"
+  },
+  {
+    "Constraint":"Detection efficiency",
+    "Physical effect":"Noisier quadrature measurements",
+    "Computational consequence":"Reduced success probability",
+    "Engineering priority":"Improve homodyne\/readout efficiency"
+  },
+  {
+    "Constraint":"Feed-forward latency",
+    "Physical effect":"Delayed adaptive basis updates",
+    "Computational consequence":"Reduced algorithm speed\/depth",
+    "Engineering priority":"Integrate electronics and control"
+  },
+  {
+    "Constraint":"Mode control",
+    "Physical effect":"Mode mixing and routing errors",
+    "Computational consequence":"Incorrect graph connectivity",
+    "Engineering priority":"Programmable photonics and stabilization"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Resource":"Frequency mode",
+    "Physical meaning":"Optical channel",
+    "Computational role":"Graph node",
+    "Next engineering challenge":"Stabilization"
+  },
+  {
+    "Resource":"Two-mode squeezing",
+    "Physical meaning":"Pair resource",
+    "Computational role":"Graph edge",
+    "Next engineering challenge":"Higher squeezing"
+  },
+  {
+    "Resource":"Graph connectivity",
+    "Physical meaning":"Entanglement lattice",
+    "Computational role":"Computational substrate",
+    "Next engineering challenge":"Programmability"
+  },
+  {
+    "Resource":"Measurement",
+    "Physical meaning":"Quadrature readout",
+    "Computational role":"Executes algorithm",
+    "Next engineering challenge":"Fast feed-forward"
+  },
+  {
+    "Resource":"Cluster state",
+    "Physical meaning":"Multipartite entangled resource",
+    "Computational role":"Measurement-based quantum computer",
+    "Next engineering challenge":"Fault tolerance"
+  }
+]

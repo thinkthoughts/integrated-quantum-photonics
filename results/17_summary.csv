@@ -1,0 +1,6 @@
+Object,Graph interpretation,Engineering role,Next constraint
+Optical channel,Frequency-bin node,Addressable quantum mode,Mode control
+Two-mode squeezed pair,Weighted edge,Pairwise entanglement primitive,Edge strength
+Frequency comb,Node set,Scalable graph substrate,Loss and bandwidth
+Mode coupling,Cross edge,Multipartite connectivity,Programmability
+Cluster state,Computational graph,Measurement-based resource,Fault tolerance

@@ -1,0 +1,6 @@
+Process,Classical view,Quantum consequence,Engineering resource
+Pump laser,Provides optical power,Drives pair generation,Input
+Kerr χ³,Nonlinear mixing,Vacuum fluctuations can be amplified,Interaction
+Four-wave mixing,Generates sidebands,Creates signal-idler pairs,Symmetric modes
+Two-mode squeezing,Joint quadrature change,Correlated fluctuations,Entanglement primitive
+Frequency comb,Many colors,Many frequency-bin resources,Scalable platform

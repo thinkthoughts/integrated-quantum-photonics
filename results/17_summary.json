@@ -1,0 +1,32 @@
+[
+  {
+    "Object":"Optical channel",
+    "Graph interpretation":"Frequency-bin node",
+    "Engineering role":"Addressable quantum mode",
+    "Next constraint":"Mode control"
+  },
+  {
+    "Object":"Two-mode squeezed pair",
+    "Graph interpretation":"Weighted edge",
+    "Engineering role":"Pairwise entanglement primitive",
+    "Next constraint":"Edge strength"
+  },
+  {
+    "Object":"Frequency comb",
+    "Graph interpretation":"Node set",
+    "Engineering role":"Scalable graph substrate",
+    "Next constraint":"Loss and bandwidth"
+  },
+  {
+    "Object":"Mode coupling",
+    "Graph interpretation":"Cross edge",
+    "Engineering role":"Multipartite connectivity",
+    "Next constraint":"Programmability"
+  },
+  {
+    "Object":"Cluster state",
+    "Graph interpretation":"Computational graph",
+    "Engineering role":"Measurement-based resource",
+    "Next constraint":"Fault tolerance"
+  }
+]
