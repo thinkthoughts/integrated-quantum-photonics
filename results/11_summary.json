@@ -1,0 +1,32 @@
+[
+  {
+    "Physical ingredient":"Pump laser",
+    "Engineering role":"Provides optical power",
+    "Notebook role":"Input resource"
+  },
+  {
+    "Physical ingredient":"High-Q resonator",
+    "Engineering role":"Stores circulating field",
+    "Notebook role":"Enhances intensity"
+  },
+  {
+    "Physical ingredient":"Kerr \u03c7\u00b3",
+    "Engineering role":"Creates nonlinear interaction",
+    "Notebook role":"Enables mixing"
+  },
+  {
+    "Physical ingredient":"Four-wave mixing",
+    "Engineering role":"Generates sidebands",
+    "Notebook role":"First new frequencies"
+  },
+  {
+    "Physical ingredient":"Resonator modes",
+    "Engineering role":"Fix mode spacing \/ FSR",
+    "Notebook role":"Selects surviving modes"
+  },
+  {
+    "Physical ingredient":"Frequency comb",
+    "Engineering role":"Many addressable optical channels",
+    "Notebook role":"Output resource"
+  }
+]

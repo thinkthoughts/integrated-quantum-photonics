@@ -1,0 +1,7 @@
+Physical ingredient,Engineering role,Notebook role
+Pump laser,Provides optical power,Input resource
+High-Q resonator,Stores circulating field,Enhances intensity
+Kerr χ³,Creates nonlinear interaction,Enables mixing
+Four-wave mixing,Generates sidebands,First new frequencies
+Resonator modes,Fix mode spacing / FSR,Selects surviving modes
+Frequency comb,Many addressable optical channels,Output resource
