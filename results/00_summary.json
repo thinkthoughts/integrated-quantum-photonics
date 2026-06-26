@@ -1,0 +1,56 @@
+[
+  {
+    "Stage":"Scaling",
+    "Focus":"Need channels",
+    "Question":"Why does replication become expensive?",
+    "Next notebook":"01_scaling_problem"
+  },
+  {
+    "Stage":"Multiplexing",
+    "Focus":"Optical modes",
+    "Question":"Can one device support many optical modes?",
+    "Next notebook":"05_frequency_multiplexing"
+  },
+  {
+    "Stage":"Quantum frequency combs",
+    "Focus":"Evenly spaced resonator modes",
+    "Question":"How are mode ladders generated and addressed?",
+    "Next notebook":"07_quantum_frequency_combs"
+  },
+  {
+    "Stage":"Kerr resonators",
+    "Focus":"Nonlinear interaction",
+    "Question":"How does Q, pump power, and mode volume enhance interaction?",
+    "Next notebook":"11_kerr_nonlinearity"
+  },
+  {
+    "Stage":"Two-mode squeezing",
+    "Focus":"Quadrature correlations",
+    "Question":"How do symmetric modes become EPR-like resources?",
+    "Next notebook":"13_two_mode_squeezing"
+  },
+  {
+    "Stage":"Many-mode entanglement",
+    "Focus":"Graph resources",
+    "Question":"How do pair resources become multipartite structure?",
+    "Next notebook":"17_many_mode_entanglement"
+  },
+  {
+    "Stage":"Integrated circuits",
+    "Focus":"On-chip architecture",
+    "Question":"Which components belong on chip?",
+    "Next notebook":"23_integrated_photonic_circuits"
+  },
+  {
+    "Stage":"Loss",
+    "Focus":"Measurement and preservation",
+    "Question":"Can loss be characterized and reduced?",
+    "Next notebook":"29_loss_as_design_constraint"
+  },
+  {
+    "Stage":"Applications",
+    "Focus":"Cluster states and thresholds",
+    "Question":"Which architectures become practical at sufficient squeezing and low loss?",
+    "Next notebook":"37_cluster_state_architectures"
+  }
+]

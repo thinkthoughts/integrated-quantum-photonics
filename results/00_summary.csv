@@ -1,0 +1,10 @@
+Stage,Focus,Question,Next notebook
+Scaling,Need channels,Why does replication become expensive?,01_scaling_problem
+Multiplexing,Optical modes,Can one device support many optical modes?,05_frequency_multiplexing
+Quantum frequency combs,Evenly spaced resonator modes,How are mode ladders generated and addressed?,07_quantum_frequency_combs
+Kerr resonators,Nonlinear interaction,"How does Q, pump power, and mode volume enhance interaction?",11_kerr_nonlinearity
+Two-mode squeezing,Quadrature correlations,How do symmetric modes become EPR-like resources?,13_two_mode_squeezing
+Many-mode entanglement,Graph resources,How do pair resources become multipartite structure?,17_many_mode_entanglement
+Integrated circuits,On-chip architecture,Which components belong on chip?,23_integrated_photonic_circuits
+Loss,Measurement and preservation,Can loss be characterized and reduced?,29_loss_as_design_constraint
+Applications,Cluster states and thresholds,Which architectures become practical at sufficient squeezing and low loss?,37_cluster_state_architectures
