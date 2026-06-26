@@ -1,0 +1,27 @@
+[
+  {
+    "Property":"Frequencies",
+    "Single-frequency source":"one",
+    "Frequency-comb resource":"many"
+  },
+  {
+    "Property":"Resonator",
+    "Single-frequency source":"optional",
+    "Frequency-comb resource":"essential"
+  },
+  {
+    "Property":"Channels",
+    "Single-frequency source":"one",
+    "Frequency-comb resource":"many"
+  },
+  {
+    "Property":"Spacing",
+    "Single-frequency source":"single frequency",
+    "Frequency-comb resource":"fixed FSR"
+  },
+  {
+    "Property":"Scaling variable",
+    "Single-frequency source":"devices",
+    "Frequency-comb resource":"modes"
+  }
+]

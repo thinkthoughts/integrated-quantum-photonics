@@ -1,0 +1,6 @@
+Property,Single-frequency source,Frequency-comb resource
+Frequencies,one,many
+Resonator,optional,essential
+Channels,one,many
+Spacing,single frequency,fixed FSR
+Scaling variable,devices,modes
