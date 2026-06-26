@@ -1,0 +1,5 @@
+Concept,Engineering effect,Why it matters,Next question,Next notebook
+Frequency multiplexing,Many optical channels per device,Scaling shifts from hardware replication to optical modes.,How does a resonator generate many coherent frequencies?,07_quantum_frequency_combs
+Frequency comb,Evenly spaced resonances,Provides addressable optical resources.,How are mode ladders generated and stabilized?,07_quantum_frequency_combs
+Integrated resonator,One chip can replace many replicated devices,Packaging and alignment complexity can decrease.,How does Kerr nonlinearity create new modes?,11_kerr_nonlinearity
+Mode resources,Many distinguishable channels,Modes become the substrate for later squeezing and entanglement.,How do modes become quantum resources?,13_two_mode_squeezing
