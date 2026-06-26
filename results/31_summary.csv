@@ -1,0 +1,6 @@
+Resource,Allocation goal,Leading specification,Result
+Squeezing,Preserve graph edges,Admitted correlations,Graph quality
+Routing,Preserve topology,Admitted connectivity,Cluster quality
+Measurement,Maximize readout information,Admitted readout,Logical update
+Feed-forward,Minimize delay,Admitted timing,Computation
+Stabilization,Preserve calibration,Admitted operation,Repeatability

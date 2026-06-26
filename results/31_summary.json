@@ -1,0 +1,32 @@
+[
+  {
+    "Resource":"Squeezing",
+    "Allocation goal":"Preserve graph edges",
+    "Leading specification":"Admitted correlations",
+    "Result":"Graph quality"
+  },
+  {
+    "Resource":"Routing",
+    "Allocation goal":"Preserve topology",
+    "Leading specification":"Admitted connectivity",
+    "Result":"Cluster quality"
+  },
+  {
+    "Resource":"Measurement",
+    "Allocation goal":"Maximize readout information",
+    "Leading specification":"Admitted readout",
+    "Result":"Logical update"
+  },
+  {
+    "Resource":"Feed-forward",
+    "Allocation goal":"Minimize delay",
+    "Leading specification":"Admitted timing",
+    "Result":"Computation"
+  },
+  {
+    "Resource":"Stabilization",
+    "Allocation goal":"Preserve calibration",
+    "Leading specification":"Admitted operation",
+    "Result":"Repeatability"
+  }
+]
