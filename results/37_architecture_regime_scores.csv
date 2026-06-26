@@ -1,0 +1,5 @@
+,Loss,Squeezing,Mode control,Detection,Feed-forward,Stability
+Single resonator,0.75,0.55,0.35,0.55,0.25,0.7
+Coupled resonators,0.62,0.7,0.55,0.5,0.3,0.58
+Programmable mesh,0.45,0.65,0.9,0.62,0.55,0.45
+Hybrid chip,0.55,0.7,0.78,0.75,0.82,0.6

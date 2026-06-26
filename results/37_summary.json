@@ -1,0 +1,32 @@
+[
+  {
+    "Stage":"Physics",
+    "Question":"What can exist?",
+    "Maintained quantity":"Optical resources"
+  },
+  {
+    "Stage":"Admissibility",
+    "Question":"What survives?",
+    "Maintained quantity":"Admitted modes"
+  },
+  {
+    "Stage":"Allocation",
+    "Question":"What deserves effort?",
+    "Maintained quantity":"Bottleneck specifications"
+  },
+  {
+    "Stage":"Operating regime",
+    "Question":"Where do specifications overlap?",
+    "Maintained quantity":"Connected admissible region"
+  },
+  {
+    "Stage":"Robustness",
+    "Question":"How much drift is tolerated?",
+    "Maintained quantity":"Operating margin"
+  },
+  {
+    "Stage":"Computation",
+    "Question":"Which logical operations remain?",
+    "Maintained quantity":"Fault-tolerant execution"
+  }
+]

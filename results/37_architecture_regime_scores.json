@@ -1,0 +1,34 @@
+{
+  "Single resonator":{
+    "Loss":0.75,
+    "Squeezing":0.55,
+    "Mode control":0.35,
+    "Detection":0.55,
+    "Feed-forward":0.25,
+    "Stability":0.7
+  },
+  "Coupled resonators":{
+    "Loss":0.62,
+    "Squeezing":0.7,
+    "Mode control":0.55,
+    "Detection":0.5,
+    "Feed-forward":0.3,
+    "Stability":0.58
+  },
+  "Programmable mesh":{
+    "Loss":0.45,
+    "Squeezing":0.65,
+    "Mode control":0.9,
+    "Detection":0.62,
+    "Feed-forward":0.55,
+    "Stability":0.45
+  },
+  "Hybrid chip":{
+    "Loss":0.55,
+    "Squeezing":0.7,
+    "Mode control":0.78,
+    "Detection":0.75,
+    "Feed-forward":0.82,
+    "Stability":0.6
+  }
+}

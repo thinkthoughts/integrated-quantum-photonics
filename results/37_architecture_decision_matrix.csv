@@ -1,0 +1,5 @@
+,Loss,Squeezing,Mode control,Detection,Feed-forward,Stability
+Single resonator,✓,○,•,○,×,✓
+Coupled resonators,○,✓,○,○,×,○
+Programmable mesh,•,○,✓,○,○,•
+Hybrid chip,○,✓,✓,✓,✓,○
