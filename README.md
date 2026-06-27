@@ -99,8 +99,8 @@ The specification chain remains invariant.
 | 37       | Cluster-state architectures       | [site](site/notebooks/37.html) | [📓](https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/37_cluster_state_architectures.ipynb)      |
 | 43       | Error-correction thresholds       | [site](site/notebooks/43.html) | [📓](https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/43_error_correction_thresholds.ipynb)      |
 | 49       | Research roadmap                  | [site](site/notebooks/49.html) | [📓](https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/49_research_roadmap.ipynb)                 |
-| 61       | Experimental specification        | [site](site/notebooks/61.html) | [📓](https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/61_experimental_specification.ipynb)       |
-| 67       | Cross-domain applications         | [site](site/notebooks/67.html) | [📓](https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/67_cross_domain_applications.ipynb)        |
+| 61       | Experimental specification        | [site](site/notebooks/61.html) | [📓](https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/61_region_constrained_experimental_design.ipynb)       |
+| 67       | Cross-domain applications         | [site](site/notebooks/67.html) | [📓](https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/67_region_constrained_applications.ipynb)        |
 
 ---
 
