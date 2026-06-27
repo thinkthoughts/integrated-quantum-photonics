@@ -1,0 +1,7 @@
+Stage,Question,Maintained quantity,Engineering role
+Physics,What can exist?,Optical resources,Generate candidate resources
+Admissibility,What survives?,Admitted resources,Filter failed resources
+Region,Where can computation occur?,Connected admissible region,Preserve connectivity
+Robustness,How much perturbation is tolerated?,Largest connected admissible region,Maintain stability margin
+Optimization,Which design widens the region?,Operating margin,Improve after preserving admissibility
+Computation,Which logical operations remain?,Fault-tolerant execution,Support logical computation

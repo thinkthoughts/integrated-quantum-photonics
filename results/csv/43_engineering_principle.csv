@@ -1,0 +1,6 @@
+Object,Meaning,Metric
+Admissible area,How many resources satisfy active specifications?,area(Omega)
+Connectedness,Do admitted resources form usable paths?,largest connected component
+Boundary distance,How far is the operating point from failure?,min distance to boundary
+Sensitivity,Which engineering action expands the region?,partial derivative of component size
+Logical performance,What computation remains after constraints?,"fidelity, depth, success probability"

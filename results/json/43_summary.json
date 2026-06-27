@@ -1,0 +1,38 @@
+[
+  {
+    "Stage":"Physics",
+    "Question":"What can exist?",
+    "Maintained quantity":"Optical resources",
+    "Engineering role":"Generate candidate resources"
+  },
+  {
+    "Stage":"Admissibility",
+    "Question":"What survives?",
+    "Maintained quantity":"Admitted resources",
+    "Engineering role":"Filter failed resources"
+  },
+  {
+    "Stage":"Region",
+    "Question":"Where can computation occur?",
+    "Maintained quantity":"Connected admissible region",
+    "Engineering role":"Preserve connectivity"
+  },
+  {
+    "Stage":"Robustness",
+    "Question":"How much perturbation is tolerated?",
+    "Maintained quantity":"Largest connected admissible region",
+    "Engineering role":"Maintain stability margin"
+  },
+  {
+    "Stage":"Optimization",
+    "Question":"Which design widens the region?",
+    "Maintained quantity":"Operating margin",
+    "Engineering role":"Improve after preserving admissibility"
+  },
+  {
+    "Stage":"Computation",
+    "Question":"Which logical operations remain?",
+    "Maintained quantity":"Fault-tolerant execution",
+    "Engineering role":"Support logical computation"
+  }
+]

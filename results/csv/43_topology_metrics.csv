@@ -1,0 +1,5 @@
+architecture,admitted_area,largest_component,component_count,average_margin,maximum_margin,critical_failure
+single resonator,0.117,0.117,1,0.096,0.225,calibration
+coupled resonators,0.135,0.135,1,0.104,0.254,loss
+programmable mesh,0.15,0.15,1,0.11,0.262,timing
+hybrid chip,0.234,0.234,1,0.149,0.388,none

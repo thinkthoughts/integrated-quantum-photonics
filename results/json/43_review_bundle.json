@@ -1,0 +1,86 @@
+{
+  "region_connectivity": [
+    {
+      "case": "baseline",
+      "admitted_area_fraction": 0.16923553719008264,
+      "largest_component_fraction": 0.16923553719008264,
+      "component_count": 1
+    },
+    {
+      "case": "shrunk",
+      "admitted_area_fraction": 0.09632231404958677,
+      "largest_component_fraction": 0.09632231404958677,
+      "component_count": 1
+    },
+    {
+      "case": "disconnected",
+      "admitted_area_fraction": 0.11175619834710744,
+      "largest_component_fraction": 0.04520661157024793,
+      "component_count": 3
+    }
+  ],
+  "architecture_scorecard": [
+    {
+      "architecture": "single resonator",
+      "region_size": 2,
+      "margin": 1,
+      "connectivity": 2,
+      "calibration": 4,
+      "timing": 1,
+      "mean_score": 2.0
+    },
+    {
+      "architecture": "coupled resonators",
+      "region_size": 3,
+      "margin": 2,
+      "connectivity": 3,
+      "calibration": 3,
+      "timing": 2,
+      "mean_score": 2.6
+    },
+    {
+      "architecture": "programmable mesh",
+      "region_size": 4,
+      "margin": 4,
+      "connectivity": 5,
+      "calibration": 3,
+      "timing": 3,
+      "mean_score": 3.8
+    },
+    {
+      "architecture": "hybrid chip",
+      "region_size": 5,
+      "margin": 5,
+      "connectivity": 5,
+      "calibration": 4,
+      "timing": 5,
+      "mean_score": 4.8
+    }
+  ],
+  "engineering_priority": [
+    {
+      "priority": "Preserve admissibility",
+      "relative_priority": 10.0
+    },
+    {
+      "priority": "Increase operating margin",
+      "relative_priority": 8.5
+    },
+    {
+      "priority": "Improve detection",
+      "relative_priority": 7.2
+    },
+    {
+      "priority": "Stabilize calibration",
+      "relative_priority": 6.1
+    },
+    {
+      "priority": "Reduce timing error",
+      "relative_priority": 5.6
+    },
+    {
+      "priority": "Local optimization",
+      "relative_priority": 3.8
+    }
+  ]
+}

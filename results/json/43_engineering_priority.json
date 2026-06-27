@@ -1,0 +1,26 @@
+[
+  {
+    "priority":"Preserve admissibility",
+    "relative_priority":10.0
+  },
+  {
+    "priority":"Increase operating margin",
+    "relative_priority":8.5
+  },
+  {
+    "priority":"Improve detection",
+    "relative_priority":7.2
+  },
+  {
+    "priority":"Stabilize calibration",
+    "relative_priority":6.1
+  },
+  {
+    "priority":"Reduce timing error",
+    "relative_priority":5.6
+  },
+  {
+    "priority":"Local optimization",
+    "relative_priority":3.8
+  }
+]

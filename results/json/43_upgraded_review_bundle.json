@@ -1,0 +1,134 @@
+{
+  "topology_metrics": [
+    {
+      "architecture": "single resonator",
+      "admitted_area": 0.117,
+      "largest_component": 0.117,
+      "component_count": 1,
+      "average_margin": 0.096,
+      "maximum_margin": 0.225,
+      "critical_failure": "calibration"
+    },
+    {
+      "architecture": "coupled resonators",
+      "admitted_area": 0.135,
+      "largest_component": 0.135,
+      "component_count": 1,
+      "average_margin": 0.104,
+      "maximum_margin": 0.254,
+      "critical_failure": "loss"
+    },
+    {
+      "architecture": "programmable mesh",
+      "admitted_area": 0.15,
+      "largest_component": 0.15,
+      "component_count": 1,
+      "average_margin": 0.11,
+      "maximum_margin": 0.262,
+      "critical_failure": "timing"
+    },
+    {
+      "architecture": "hybrid chip",
+      "admitted_area": 0.234,
+      "largest_component": 0.234,
+      "component_count": 1,
+      "average_margin": 0.149,
+      "maximum_margin": 0.388,
+      "critical_failure": "none"
+    }
+  ],
+  "region_connectivity": [
+    {
+      "case": "baseline",
+      "area": 0.13476370510396976,
+      "largest_component": 0.13476370510396976,
+      "component_count": 1
+    },
+    {
+      "case": "shrunk",
+      "area": 0.07776937618147448,
+      "largest_component": 0.07776937618147448,
+      "component_count": 1
+    },
+    {
+      "case": "disconnected",
+      "area": 0.08992438563327032,
+      "largest_component": 0.061965973534971644,
+      "component_count": 2
+    }
+  ],
+  "sensitivity": [
+    {
+      "engineering_action": "loss reduction",
+      "delta_largest_component": 0.025392561983471063,
+      "baseline": 0.15758264462809918,
+      "improved": 0.18297520661157024
+    },
+    {
+      "engineering_action": "local optimization",
+      "delta_largest_component": 0.0056611570247933896,
+      "baseline": 0.15758264462809918,
+      "improved": 0.16324380165289257
+    },
+    {
+      "engineering_action": "detection improvement",
+      "delta_largest_component": 0.005144628099173543,
+      "baseline": 0.15758264462809918,
+      "improved": 0.16272727272727272
+    },
+    {
+      "engineering_action": "routing improvement",
+      "delta_largest_component": 0.00037190082644628086,
+      "baseline": 0.15741735537190082,
+      "improved": 0.1577892561983471
+    },
+    {
+      "engineering_action": "timing control",
+      "delta_largest_component": 8.264462809917661e-05,
+      "baseline": 0.15758264462809918,
+      "improved": 0.15766528925619835
+    },
+    {
+      "engineering_action": "calibration stabilization",
+      "delta_largest_component": 0.0,
+      "baseline": 0.16297520661157025,
+      "improved": 0.15758264462809918
+    }
+  ],
+  "distance_metrics": [
+    {
+      "maximum_margin_x": 0.6129032258064516,
+      "maximum_margin_y": 0.0,
+      "chosen_point_x": 0.6,
+      "chosen_point_y": 0.22,
+      "max_normalized_distance": 1.0
+    }
+  ],
+  "engineering_principle": [
+    {
+      "Object": "Admissible area",
+      "Meaning": "How many resources satisfy active specifications?",
+      "Metric": "area(Omega)"
+    },
+    {
+      "Object": "Connectedness",
+      "Meaning": "Do admitted resources form usable paths?",
+      "Metric": "largest connected component"
+    },
+    {
+      "Object": "Boundary distance",
+      "Meaning": "How far is the operating point from failure?",
+      "Metric": "min distance to boundary"
+    },
+    {
+      "Object": "Sensitivity",
+      "Meaning": "Which engineering action expands the region?",
+      "Metric": "partial derivative of component size"
+    },
+    {
+      "Object": "Logical performance",
+      "Meaning": "What computation remains after constraints?",
+      "Metric": "fidelity, depth, success probability"
+    }
+  ]
+}

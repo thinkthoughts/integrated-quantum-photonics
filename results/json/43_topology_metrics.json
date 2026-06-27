@@ -1,0 +1,38 @@
+[
+  {
+    "architecture":"single resonator",
+    "admitted_area":0.117,
+    "largest_component":0.117,
+    "component_count":1,
+    "average_margin":0.096,
+    "maximum_margin":0.225,
+    "critical_failure":"calibration"
+  },
+  {
+    "architecture":"coupled resonators",
+    "admitted_area":0.135,
+    "largest_component":0.135,
+    "component_count":1,
+    "average_margin":0.104,
+    "maximum_margin":0.254,
+    "critical_failure":"loss"
+  },
+  {
+    "architecture":"programmable mesh",
+    "admitted_area":0.15,
+    "largest_component":0.15,
+    "component_count":1,
+    "average_margin":0.11,
+    "maximum_margin":0.262,
+    "critical_failure":"timing"
+  },
+  {
+    "architecture":"hybrid chip",
+    "admitted_area":0.234,
+    "largest_component":0.234,
+    "component_count":1,
+    "average_margin":0.149,
+    "maximum_margin":0.388,
+    "critical_failure":"none"
+  }
+]

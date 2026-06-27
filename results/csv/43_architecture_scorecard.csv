@@ -1,0 +1,5 @@
+architecture,region_size,margin,connectivity,calibration,timing,mean_score
+single resonator,2,1,2,4,1,2.0
+coupled resonators,3,2,3,3,2,2.6
+programmable mesh,4,4,5,3,3,3.8
+hybrid chip,5,5,5,4,5,4.8

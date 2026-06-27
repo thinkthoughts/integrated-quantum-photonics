@@ -1,0 +1,27 @@
+[
+  {
+    "Object":"Admissible area",
+    "Meaning":"How many resources satisfy active specifications?",
+    "Metric":"area(Omega)"
+  },
+  {
+    "Object":"Connectedness",
+    "Meaning":"Do admitted resources form usable paths?",
+    "Metric":"largest connected component"
+  },
+  {
+    "Object":"Boundary distance",
+    "Meaning":"How far is the operating point from failure?",
+    "Metric":"min distance to boundary"
+  },
+  {
+    "Object":"Sensitivity",
+    "Meaning":"Which engineering action expands the region?",
+    "Metric":"partial derivative of component size"
+  },
+  {
+    "Object":"Logical performance",
+    "Meaning":"What computation remains after constraints?",
+    "Metric":"fidelity, depth, success probability"
+  }
+]

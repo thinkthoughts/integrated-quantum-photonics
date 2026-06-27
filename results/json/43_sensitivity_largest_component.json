@@ -1,0 +1,38 @@
+[
+  {
+    "engineering_action":"loss reduction",
+    "delta_largest_component":0.025392562,
+    "baseline":0.1575826446,
+    "improved":0.1829752066
+  },
+  {
+    "engineering_action":"local optimization",
+    "delta_largest_component":0.005661157,
+    "baseline":0.1575826446,
+    "improved":0.1632438017
+  },
+  {
+    "engineering_action":"detection improvement",
+    "delta_largest_component":0.0051446281,
+    "baseline":0.1575826446,
+    "improved":0.1627272727
+  },
+  {
+    "engineering_action":"routing improvement",
+    "delta_largest_component":0.0003719008,
+    "baseline":0.1574173554,
+    "improved":0.1577892562
+  },
+  {
+    "engineering_action":"timing control",
+    "delta_largest_component":0.0000826446,
+    "baseline":0.1575826446,
+    "improved":0.1576652893
+  },
+  {
+    "engineering_action":"calibration stabilization",
+    "delta_largest_component":0.0,
+    "baseline":0.1629752066,
+    "improved":0.1575826446
+  }
+]

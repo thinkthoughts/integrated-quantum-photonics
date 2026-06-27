@@ -1,0 +1,30 @@
+[
+  {
+    "architecture":"single resonator",
+    "region_size":0.32,
+    "margin":0.25,
+    "connectivity":0.38,
+    "robustness_score":0.3166666667
+  },
+  {
+    "architecture":"coupled resonators",
+    "region_size":0.53,
+    "margin":0.44,
+    "connectivity":0.55,
+    "robustness_score":0.5066666667
+  },
+  {
+    "architecture":"programmable mesh",
+    "region_size":0.78,
+    "margin":0.67,
+    "connectivity":0.8,
+    "robustness_score":0.75
+  },
+  {
+    "architecture":"hybrid chip",
+    "region_size":0.92,
+    "margin":0.84,
+    "connectivity":0.9,
+    "robustness_score":0.8866666667
+  }
+]

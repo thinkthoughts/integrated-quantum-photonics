@@ -1,0 +1,26 @@
+[
+  {
+    "category":"squeezing",
+    "allocation_share":0.26
+  },
+  {
+    "category":"routing",
+    "allocation_share":0.2
+  },
+  {
+    "category":"detection",
+    "allocation_share":0.18
+  },
+  {
+    "category":"timing",
+    "allocation_share":0.12
+  },
+  {
+    "category":"calibration",
+    "allocation_share":0.12
+  },
+  {
+    "category":"stability",
+    "allocation_share":0.12
+  }
+]

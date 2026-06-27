@@ -1,0 +1,38 @@
+[
+  {
+    "architecture":"single resonator",
+    "region_size":2,
+    "margin":1,
+    "connectivity":2,
+    "calibration":4,
+    "timing":1,
+    "mean_score":2.0
+  },
+  {
+    "architecture":"coupled resonators",
+    "region_size":3,
+    "margin":2,
+    "connectivity":3,
+    "calibration":3,
+    "timing":2,
+    "mean_score":2.6
+  },
+  {
+    "architecture":"programmable mesh",
+    "region_size":4,
+    "margin":4,
+    "connectivity":5,
+    "calibration":3,
+    "timing":3,
+    "mean_score":3.8
+  },
+  {
+    "architecture":"hybrid chip",
+    "region_size":5,
+    "margin":5,
+    "connectivity":5,
+    "calibration":4,
+    "timing":5,
+    "mean_score":4.8
+  }
+]

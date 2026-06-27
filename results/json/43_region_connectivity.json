@@ -1,0 +1,20 @@
+[
+  {
+    "case":"baseline",
+    "area":0.1347637051,
+    "largest_component":0.1347637051,
+    "component_count":1
+  },
+  {
+    "case":"shrunk",
+    "area":0.0777693762,
+    "largest_component":0.0777693762,
+    "component_count":1
+  },
+  {
+    "case":"disconnected",
+    "area":0.0899243856,
+    "largest_component":0.0619659735,
+    "component_count":2
+  }
+]

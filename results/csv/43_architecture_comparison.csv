@@ -1,0 +1,5 @@
+architecture,region_size,margin,connectivity,robustness_score
+single resonator,0.32,0.25,0.38,0.3166666666666667
+coupled resonators,0.53,0.44,0.55,0.5066666666666667
+programmable mesh,0.78,0.67,0.8,0.75
+hybrid chip,0.92,0.84,0.9,0.8866666666666667

@@ -1,0 +1,14 @@
+[
+  {
+    "case":"baseline",
+    "admitted_fraction":0.1585714286
+  },
+  {
+    "case":"drifted",
+    "admitted_fraction":0.1689285714
+  },
+  {
+    "case":"fragmented",
+    "admitted_fraction":0.1510204082
+  }
+]
