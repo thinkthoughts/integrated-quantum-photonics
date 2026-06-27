@@ -1,0 +1,24 @@
+{
+  "notebook": "61_region_constrained_experimental_design",
+  "thesis": "Experiments validate admissible regions before selecting operating points.",
+  "pipeline": [
+    "Physics",
+    "Simulation",
+    "Experiment",
+    "Topology",
+    "Robust Operation",
+    "Computation"
+  ],
+  "principles": [
+    "Simulation predicts \u03a9.",
+    "Experiment measures \u03a9.",
+    "The validated region is \u03a9_sim \u2229 \u03a9_exp.",
+    "Calibration preserves \u03a9c before it improves the operating point.",
+    "Robust operation selects x* from the interior of \u03a9c."
+  ],
+  "figure_count": 10,
+  "data_files": [
+    "61_cross_domain_experimental_design.csv",
+    "61_experimental_refinement_metrics.csv"
+  ]
+}

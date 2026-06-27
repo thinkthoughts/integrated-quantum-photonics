@@ -1,0 +1,44 @@
+{
+  "notebook": "53_design_principles_region_constrained_search",
+  "thesis": "Physics specifies admissibility; admissibility specifies topology; topology specifies robustness; robustness specifies operation; operation specifies computation.",
+  "principles": [
+    {
+      "principle": 1,
+      "statement": "Physics specifies admissibility.",
+      "object": "\u03a9"
+    },
+    {
+      "principle": 2,
+      "statement": "Admissibility specifies topology.",
+      "object": "\u03a9c"
+    },
+    {
+      "principle": 3,
+      "statement": "Topology specifies robustness.",
+      "object": "d(\u2202\u03a9c)"
+    },
+    {
+      "principle": 4,
+      "statement": "Robustness specifies operation.",
+      "object": "x*"
+    },
+    {
+      "principle": 5,
+      "statement": "Operation specifies computation.",
+      "object": "fault-tolerant execution"
+    }
+  ],
+  "pipeline": [
+    "Physics",
+    "Admissibility",
+    "Topology \u03a9c",
+    "Robustness d(\u2202\u03a9c)",
+    "Operation x*",
+    "Computation"
+  ],
+  "figure_count": 14,
+  "data_files": [
+    "53_design_principles.csv",
+    "53_engineering_interpretation.csv"
+  ]
+}

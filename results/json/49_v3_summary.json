@@ -1,0 +1,22 @@
+{
+  "notebook": "49_region_constrained_design_search_v3",
+  "thesis": "Topology specifies robustness; robustness specifies operation; operation specifies computation.",
+  "pipeline": [
+    "D",
+    "\u03a9(D)",
+    "\u03a9c(D)",
+    "d(\u2202\u03a9c)",
+    "x*",
+    "fault-tolerant execution"
+  ],
+  "best_design": "single cavity",
+  "figure_count": 23,
+  "data_files": [
+    "49_v3_design_evolution.csv",
+    "49_v3_symbol_summary.csv",
+    "49_v3_summary.json",
+    "49_v3_search_progress.csv",
+    "49_v3_engineering_specification_table.csv",
+    "49_v3_architecture_metrics.csv"
+  ]
+}
