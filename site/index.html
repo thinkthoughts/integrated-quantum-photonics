@@ -1,45 +1,236 @@
 <!doctype html>
-<html lang="en">
+
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Integrated Quantum Photonics</title>
-  <link rel="stylesheet" href="styles/site.css">
+
+  <title>Integrated Quantum Photonics | Notebook Index</title>
+
+<meta
+name="description"
+content="Executable notebook index for integrated quantum photonics, microresonators, frequency combs, squeezing, continuous-variable quantum computing, and region-constrained experimental design."
+
+>
+
+  <link rel="stylesheet" href="/styles/site.css">
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["\\(", "\\)"], ["$", "$"]]
+      },
+      svg: {
+        fontCache: "global"
+      }
+    };
+  </script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+  <script defer src="/js/dark-mode.js"></script>
+
 </head>
+
 <body>
-  <header>
-    <h1>Integrated Quantum Photonics</h1>
-    <p>Executable companion notebooks from frequency multiplexing to squeezed microcombs and cluster-state architectures.</p>
+  <header class="site-header">
+    <nav class="site-nav">
+      <a class="site-brand" href="/">labreports.app</a>
+
+```
+  <div class="nav-links">
+    <a href="/">Reports</a>
+    <a href="https://climatereality.app">Climate Reality</a>
+    <a href="https://climatedemocracy.app">Climate Democracy</a>
+    <a href="https://danhawkley.dev">Dan Hawkley</a>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+      ◐
+    </button>
+  </div>
+</nav>
+```
+
   </header>
 
-  <main>
-    <section class="card">
-      <h2>Roadmap</h2>
-      <p>Scaling pressure → frequency multiplexing → quantum frequency combs → Kerr nonlinear interaction → squeezing → many-mode entanglement → integration → loss characterization → cluster-state architectures.</p>
-    </section>
+  <main class="page">
+    <article class="report">
+      <header class="report-header">
+        <p class="eyebrow">Executable Research Repository</p>
+        <h1>Integrated Quantum Photonics</h1>
 
-    <section class="card">
-      <h2>Notebook pages</h2>
-      <ul>
-        <li><a href="notebooks/00.html">00 — Why integrated quantum photonics?</a></li>
-        <li><a href="notebooks/01.html">01 — Scaling problem</a></li>
-        <li><a href="notebooks/05.html">05 — Frequency multiplexing</a></li>
-        <li><a href="notebooks/07.html">07 — Quantum frequency combs</a></li>
-        <li><a href="notebooks/11.html">11 — Kerr nonlinearity</a></li>
-        <li><a href="notebooks/13.html">13 — Two-mode squeezing</a></li>
-        <li><a href="notebooks/17.html">17 — Many-mode entanglement</a></li>
-        <li><a href="notebooks/23.html">23 — Integrated photonic circuits</a></li>
-        <li><a href="notebooks/29.html">29 — Loss as design constraint</a></li>
-        <li><a href="notebooks/31.html">31 — Loss characterization</a></li>
-        <li><a href="notebooks/37.html">37 — Cluster-state architectures</a></li>
-        <li><a href="notebooks/43.html">43 — Error-correction thresholds</a></li>
-        <li><a href="notebooks/49.html">49 — Research roadmap</a></li>
-      </ul>
-    </section>
+```
+    <p class="dek">
+      Computational notebooks exploring integrated quantum photonics,
+      microresonators, frequency combs, squeezing, scalable continuous-variable
+      quantum computing, and region-constrained experimental design.
+    </p>
+  </header>
+
+  <figure class="hero-figure">
+    <img
+      src="quanatum-integrated-photonics-repo.png"
+      alt="Architecture diagram for the Integrated Quantum Photonics repository, organized into mathematical foundations, experimental workflow, and cross-domain applications."
+    >
+  </figure>
+
+  <section>
+    <h2>Repository architecture</h2>
+
+    <p>
+      This repository develops a specification chain that begins with device
+      physics and ends with experimentally robust operating points:
+    </p>
+
+    <pre><code>physics
+```
+
+→ constraints
+→ Ω
+→ Ωc
+→ d(∂Ωc)
+→ x*</code></pre>
+
+```
+    <p>
+      The application changes. The specification chain persists.
+    </p>
+  </section>
+
+  <section>
+    <h2>Notebook roadmap</h2>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Notebook</th>
+            <th>Focus</th>
+            <th>Site</th>
+            <th>Colab</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>00</td>
+            <td>Why integrated quantum photonics?</td>
+            <td><a href="site/notebooks/00.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/00_why_integrated_quantum_photonics.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>01</td>
+            <td>Scaling problem</td>
+            <td><a href="site/notebooks/01.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/01_scaling_problem.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>05</td>
+            <td>Frequency multiplexing</td>
+            <td><a href="site/notebooks/05.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/05_frequency_multiplexing.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>07</td>
+            <td>Quantum frequency combs</td>
+            <td><a href="site/notebooks/07.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/07_quantum_frequency_combs.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Kerr nonlinearity</td>
+            <td><a href="site/notebooks/11.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/11_kerr_nonlinearity.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Two-mode squeezing</td>
+            <td><a href="site/notebooks/13.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/13_two_mode_squeezing.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>Many-mode entanglement</td>
+            <td><a href="site/notebooks/17.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/17_many_mode_entanglement.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>Integrated photonic circuits</td>
+            <td><a href="site/notebooks/23.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/23_integrated_photonic_circuits.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>Loss as design constraint</td>
+            <td><a href="site/notebooks/29.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/29_loss_as_design_constraint.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>Loss characterization</td>
+            <td><a href="site/notebooks/31.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/31_loss_characterization.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td>Cluster-state architectures</td>
+            <td><a href="site/notebooks/37.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/37_cluster_state_architectures.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>43</td>
+            <td>Error-correction thresholds</td>
+            <td><a href="site/notebooks/43.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/43_error_correction_thresholds.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>49</td>
+            <td>Research roadmap</td>
+            <td><a href="site/notebooks/49.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/49_research_roadmap.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>61</td>
+            <td>Experimental specification</td>
+            <td><a href="site/notebooks/61.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/61_region_constrained_experimental_design.ipynb">📓</a></td>
+          </tr>
+          <tr>
+            <td>67</td>
+            <td>Cross-domain applications</td>
+            <td><a href="site/notebooks/67.html">site</a></td>
+            <td><a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/67_region_constrained_applications.ipynb">📓</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Working principle</h2>
+
+    <p>
+      Seminar slides provide leads. The repository turns those leads into
+      reviewable specifications.
+    </p>
+
+    <pre><code>lead
+```
+
+→ executable model
+→ figure
+→ constraint
+→ refinement</code></pre> </section>
+
+```
+  <section>
+    <h2>Setup</h2>
+
+    <pre><code>python -m venv .venv
+```
+
+source .venv/bin/activate
+pip install -r requirements.txt</code></pre> </section> </article>
+
   </main>
-
-  <footer>
-    <p>Lead → executable model → figure → constraint → refinement.</p>
-  </footer>
 </body>
 </html>
