@@ -1,0 +1,5 @@
+Lane,Step 1,Step 2,Step 3
+Quantum hardware,map Ω from pulse simulations,validate Ωc experimentally,select maximum-margin gates
+Photonics / microcombs,map pump-detuning regions,preserve mode-locking topology,choose robust operating windows
+ML / control,"compare basins, not only minima",measure distance to failure,rank architectures by Ωc
+Experimental science,report admissible regions,report distance fields,report robustness margins

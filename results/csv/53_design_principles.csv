@@ -1,0 +1,6 @@
+principle,statement,object
+1,Physics specifies admissibility.,Ω
+2,Admissibility specifies topology.,Ωc
+3,Topology specifies robustness.,d(∂Ωc)
+4,Robustness specifies operation.,x*
+5,Operation specifies computation.,fault-tolerant execution

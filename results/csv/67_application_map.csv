@@ -1,0 +1,7 @@
+Domain,Ω,Ωc,d(∂Ωc),x*
+quantum control,admissible pulses,connected pulse family,pulse tolerance,operating pulse
+photonics,fabrication window,connected device family,fabrication margin,device setting
+microcombs,mode-locking region,connected comb state,detuning margin,operating detuning
+atom interferometry,stable trajectories,common-mode path family,phase margin,measurement protocol
+ML systems,feasible model class,robust basin,generalization margin,trained model
+robotics,reachable states,safe trajectory family,clearance margin,controller

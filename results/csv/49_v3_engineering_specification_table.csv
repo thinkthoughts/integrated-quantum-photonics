@@ -1,0 +1,8 @@
+Symbol,Meaning,Computation
+Design D,candidate architecture or control policy,input to search
+Ω(D),admissible region,thresholded specification mask
+Ωc(D),largest connected admissible component,connected-component analysis
+d(∂Ωc),distance to failure boundary,distance transform
+x*,maximum-margin operating point,argmax distance inside Ωc
+J(D),region objective,weighted engineering specification
+Fault-tolerant computation,robust logical execution,selected from robust region

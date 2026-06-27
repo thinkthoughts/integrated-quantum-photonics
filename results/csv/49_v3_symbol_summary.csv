@@ -1,0 +1,10 @@
+Symbol,Meaning,Computation
+D,design,candidate architecture or policy
+Ω(D),admissible region,thresholded mask
+Ωc(D),largest connected component,connected-component analysis
+d(∂Ωc),distance to boundary,distance transform
+x*,maximum-margin point,argmax inside Ωc
+J(D),region objective,α|Ωc| + βM − γC − δK
+C(D),hardware cost,estimated cost model
+K(D),control complexity,control / calibration model
+M(D),robustness margin,maximum distance in Ωc

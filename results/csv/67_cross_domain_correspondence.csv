@@ -1,0 +1,5 @@
+Mathematical object,Quantum,Photonics,ML,Robotics
+Ω,valid pulses,device window,feasible models,reachable states
+Ωc,pulse family,stable devices,robust basin,safe paths
+d(∂Ωc),error margin,fabrication margin,generalization margin,clearance
+x*,pulse,setting,model,controller

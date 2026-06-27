@@ -1,0 +1,6 @@
+Quantity,Engineering meaning,Use
+Ω,admissible behaviors,what survives constraints
+Ωc,largest connected design family,what remains navigable
+d(∂Ωc),robustness margin,distance to failure
+x*,operating point,chosen from robust interior
+J(D),architecture comparison,summary of region + penalties

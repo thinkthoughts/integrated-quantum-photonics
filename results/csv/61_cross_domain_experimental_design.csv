@@ -1,0 +1,7 @@
+Field,Ω,Ωc,x*
+Quantum hardware,admissible controls,connected control family,operating pulse
+Photonics,fabrication window,stable device family,device setting
+Atom interferometry,allowed trajectories,common-mode stable path,measurement protocol
+Machine learning,feasible models,robust basin,trained network
+Robotics,reachable states,safe trajectory family,controller
+Climate modeling,admissible scenarios,connected policy/physics region,robust intervention
