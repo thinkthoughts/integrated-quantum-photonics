@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>11 — Kerr Nonlinearity | Integrated Quantum Photonics</title>
+
+<meta
+name="description"
+content="Notebook 11 explains how Kerr nonlinearity and four-wave mixing transform resonator modes into growing quantum frequency combs."
+>
+
+<link rel="stylesheet" href="styles/site.css">
+<script defer src="js/dark-mode.js"></script>
+
+</head>
+
+<body>
+
+<header class="site-header">
+<nav class="site-nav">
+
+<a class="site-brand" href="index.html">
+Integrated Quantum Photonics
+</a>
+
+<div class="nav-links">
+<a href="index.html">Xu Yi lab</a>
+<a href="https://github.com/thinkthoughts/integrated-quantum-photonics">GitHub</a>
+<a href="https://labreports.app">Lab Reports</a>
+
+<button
+id="theme-toggle"
+class="theme-toggle"
+type="button"
+aria-label="Toggle dark mode">◐</button>
+
+</div>
+
+</nav>
+</header>
+
+<main class="page">
+<article class="report">
+
+<header class="report-header">
+
+<p class="eyebrow">Notebook 11</p>
+
+<h1>Kerr Nonlinearity</h1>
+
+<p class="dek">
+Kerr nonlinearity provides the physical mechanism that couples
+frequency modes through four-wave mixing, enabling quantum
+frequency comb generation inside integrated resonators.
+</p>
+
+</header>
+
+<nav class="card">
+
+<strong>Navigation:</strong>
+
+<a href="index.html">Index</a> ·
+<a href="00.html">00</a> ·
+<a href="01.html">01</a> ·
+<a href="05.html">05</a> ·
+<a href="07.html">07</a> ·
+<strong>11</strong> ·
+<a href="13.html">13</a> ·
+<a href="17.html">17</a> ·
+<a href="23.html">23</a> ·
+<a href="29.html">29</a> ·
+<a href="31.html">31</a> ·
+<a href="37.html">37</a> ·
+<a href="43.html">43</a> ·
+<a href="49.html">49</a> ·
+<a href="53.html">53</a> ·
+<a href="61.html">61</a> ·
+<a href="67.html">67</a>
+
+</nav>
+
+<figure class="hero-figure">
+
+<img
+src="images/11_summary.png"
+alt="Summary diagram showing Kerr nonlinearity, four-wave mixing, resonator selection, comb growth, and nonlinear thresholds."
+>
+
+<figcaption>
+Kerr nonlinearity transforms passive resonator modes into an actively growing frequency comb.
+</figcaption>
+
+</figure>
+
+<section>
+
+<h2>Overview</h2>
+
+<p>
+
+Frequency combs require more than evenly spaced resonator modes.
+A nonlinear interaction must exchange energy between optical
+frequencies while conserving energy and momentum.
+
+</p>
+
+<p>
+
+Integrated microresonators accomplish this through the Kerr
+nonlinear optical response. Pump photons generate correlated
+sidebands through four-wave mixing, allowing the frequency comb
+to expand across many resonant modes.
+
+</p>
+
+<pre><code>
+pump laser
+→ Kerr nonlinearity
+→ four-wave mixing
+→ sideband generation
+→ comb growth
+→ quantum resources
+</code></pre>
+
+<p>
+
+Notebook 11 explains the physical mechanism that connects
+resonator geometry with scalable optical mode generation.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Generated figures</h2>
+
+<figure class="hero-figure">
+
+<img
+src="images/11_kerr_pipeline.png"
+alt="Pipeline showing pump laser, Kerr interaction, four-wave mixing, and frequency comb growth."
+>
+
+<figcaption>
+Kerr nonlinearity converts pump power into structured optical sidebands.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/11_four_wave_mixing.png"
+alt="Diagram illustrating four-wave mixing between pump and generated sideband frequencies."
+>
+
+<figcaption>
+Four-wave mixing is the nonlinear interaction responsible for comb generation.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/11_comb_growth.png"
+alt="Diagram showing progressive growth of a frequency comb through repeated nonlinear interactions."
+>
+
+<figcaption>
+Once initiated, nonlinear coupling expands the comb across many resonator modes.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/11_threshold.png"
+alt="Threshold diagram showing the onset of nonlinear frequency comb generation."
+>
+
+<figcaption>
+Comb generation begins only after the nonlinear oscillation threshold is exceeded.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/11_resonator_selection.png"
+alt="Diagram illustrating resonator design choices affecting Kerr enhancement and comb generation."
+>
+
+<figcaption>
+Resonator geometry determines which nonlinear operating regime is accessible.
+</figcaption>
+
+</figure>
+
+</section>
+
+<section>
+
+<h2>Engineering questions</h2>
+
+<div class="table-wrap">
+
+<table>
+
+<thead>
+<tr>
+<th>Stage</th>
+<th>Question</th>
+<th>Next notebook</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Kerr interaction</td>
+<td>How are resonator modes coupled?</td>
+<td><strong>Current notebook</strong></td>
+</tr>
+
+<tr>
+<td>Comb growth</td>
+<td>When does nonlinear oscillation begin?</td>
+<td><strong>Current notebook</strong></td>
+</tr>
+
+<tr>
+<td>Two-mode squeezing</td>
+<td>How do coupled modes become quantum-correlated?</td>
+<td><a href="13.html">13 — Two-Mode Squeezing</a></td>
+</tr>
+
+<tr>
+<td>Many-mode entanglement</td>
+<td>How do squeezed mode pairs become large entangled graphs?</td>
+<td><a href="17.html">17 — Many-Mode Entanglement</a></td>
+</tr>
+
+<tr>
+<td>Integrated circuits</td>
+<td>How are nonlinear devices assembled into scalable hardware?</td>
+<td><a href="23.html">23 — Integrated Photonic Circuits</a></td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>11_kerr_nonlinearity.ipynb</h2>
+
+<p>
+
+<a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/11_kerr_nonlinearity.ipynb">
+
+Notebook 11 on Google Colab
+
+</a>
+
+</p>
+
+</section>
+
+<nav class="card">
+
+<strong>Previous:</strong>
+
+<a href="07.html">07 — Quantum Frequency Combs</a>
+
+|
+
+<strong>Next:</strong>
+
+<a href="13.html">13 — Two-Mode Squeezing</a>
+
+</nav>
+
+</article>
+</main>
+
+</body>
+</html>

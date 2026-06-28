@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>01 — Scaling Problem | Integrated Quantum Photonics</title>
+
+  <meta
+    name="description"
+    content="Notebook 01 examines why hardware replication becomes the dominant bottleneck for large-scale quantum photonics and motivates frequency multiplexing."
+  >
+
+  <link rel="stylesheet" href="styles/site.css">
+  <script defer src="js/dark-mode.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <a class="site-brand" href="index.html">
+      Integrated Quantum Photonics
+    </a>
+
+    <div class="nav-links">
+      <a href="index.html">Xu Yi lab</a>
+      <a href="https://github.com/thinkthoughts/integrated-quantum-photonics">GitHub</a>
+      <a href="https://labreports.app">Lab Reports</a>
+      <button id="theme-toggle"
+              class="theme-toggle"
+              type="button"
+              aria-label="Toggle dark mode">◐</button>
+    </div>
+  </nav>
+</header>
+
+<main class="page">
+<article class="report">
+
+<header class="report-header">
+<p class="eyebrow">Notebook 01</p>
+
+<h1>Scaling Problem</h1>
+
+<p class="dek">
+Adding more quantum devices eventually scales packaging,
+alignment, routing, yield, calibration, and measurement faster
+than useful quantum resources. This notebook motivates
+frequency multiplexing as the next scalable direction.
+</p>
+</header>
+
+<nav class="card">
+<strong>Navigation:</strong>
+
+<a href="index.html">Index</a> ·
+<a href="00.html">00</a> ·
+<strong>01</strong> ·
+<a href="05.html">05</a> ·
+<a href="07.html">07</a> ·
+<a href="11.html">11</a> ·
+<a href="13.html">13</a> ·
+<a href="17.html">17</a> ·
+<a href="23.html">23</a> ·
+<a href="29.html">29</a> ·
+<a href="31.html">31</a> ·
+<a href="37.html">37</a> ·
+<a href="43.html">43</a> ·
+<a href="49.html">49</a> ·
+<a href="53.html">61</a> ·
+<a href="61.html">53</a> ·
+<a href="67.html">67</a>
+</nav>
+
+<figure class="hero-figure">
+<img
+src="images/01_transition_to_multiplexing.png"
+alt="Transition from hardware replication toward frequency multiplexing as the scalable strategy for integrated quantum photonics."
+>
+
+<figcaption>
+The scaling problem is not producing one more device—it is producing thousands. Frequency multiplexing changes the scaling variable.
+</figcaption>
+</figure>
+
+<section>
+
+<h2>Overview</h2>
+
+<p>
+
+Early photonic quantum experiments often scale by adding
+another source, detector, fiber, package, or control channel.
+Initially this is effective, but every new component increases
+alignment effort, fabrication variability, calibration overhead,
+routing complexity, and optical loss.
+
+</p>
+
+<p>
+
+The engineering question therefore becomes:
+
+</p>
+
+<pre><code>
+Can one physical device
+produce many useful quantum modes?
+
+instead of
+
+Can we build many identical devices?
+</code></pre>
+
+<p>
+
+Notebook 01 identifies replication as the dominant systems
+constraint and motivates modal scaling through integrated
+frequency combs.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Generated figures</h2>
+
+<figure class="hero-figure">
+<img
+src="images/01_replication_stack.png"
+alt="Stack of replicated quantum hardware showing increasing engineering complexity."
+>
+
+<figcaption>
+Every replicated device carries packaging, alignment, routing,
+electronics, and measurement overhead.
+</figcaption>
+</figure>
+
+<figure class="hero-figure">
+<img
+src="images/01_packaging_growth.png"
+alt="Packaging complexity grows as additional quantum hardware is added."
+>
+
+<figcaption>
+Packaging often grows faster than useful quantum resources.
+</figcaption>
+</figure>
+
+<figure class="hero-figure">
+<img
+src="images/01_compound_yield.png"
+alt="Compound fabrication yield decreases as larger systems require more simultaneously functioning components."
+>
+
+<figcaption>
+System yield compounds across many required components,
+making large replicated systems increasingly difficult.
+</figcaption>
+</figure>
+
+<figure class="hero-figure">
+<img
+src="images/01_scaling_bottlenecks.png"
+alt="Engineering bottlenecks including routing, calibration, packaging, synchronization, and loss."
+>
+
+<figcaption>
+Scaling bottlenecks appear throughout the engineering stack,
+not only in device fabrication.
+</figcaption>
+</figure>
+
+<figure class="hero-figure">
+<img
+src="images/01_replication_vs_modes.png"
+alt="Comparison of hardware replication with frequency-mode scaling."
+>
+
+<figcaption>
+Modal scaling increases quantum resources without requiring
+proportional hardware replication.
+</figcaption>
+</figure>
+
+<figure class="hero-figure">
+<img
+src="images/01_transition_to_multiplexing.png"
+alt="Transition from hardware replication toward multiplexed optical modes."
+>
+
+<figcaption>
+The natural engineering response is frequency multiplexing,
+developed in Notebook 05.
+</figcaption>
+</figure>
+
+</section>
+
+<section>
+
+<h2>Engineering questions</h2>
+
+<div class="table-wrap">
+
+<table>
+
+<thead>
+<tr>
+<th>Constraint</th>
+<th>Question</th>
+<th>Next notebook</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Replication</td>
+<td>Why does adding hardware stop scaling?</td>
+<td><strong>Current notebook</strong></td>
+</tr>
+
+<tr>
+<td>Frequency multiplexing</td>
+<td>Can one resonator generate many usable modes?</td>
+<td><a href="05.html">05 — Frequency Multiplexing</a></td>
+</tr>
+
+<tr>
+<td>Frequency combs</td>
+<td>How are optical modes organized?</td>
+<td><a href="07.html">07 — Quantum Frequency Combs</a></td>
+</tr>
+
+<tr>
+<td>Kerr interaction</td>
+<td>What creates nonlinear mode coupling?</td>
+<td><a href="11.html">11 — Kerr Nonlinearity</a></td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>01_scaling_problem.ipynb</h2>
+
+<p>
+
+<a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/01_scaling_problem.ipynb">
+
+Notebook 01 on Google Colab
+
+</a>
+
+</p>
+
+</section>
+
+<nav class="card">
+
+<strong>Previous:</strong>
+
+<a href="00.html">00 — Why Integrated Quantum Photonics?</a>
+
+|
+
+<strong>Next:</strong>
+
+<a href="05.html">05 — Frequency Multiplexing</a>
+
+</nav>
+
+</article>
+</main>
+
+</body>
+</html>

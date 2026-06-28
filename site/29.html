@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>29 — Loss as Design Constraint | Integrated Quantum Photonics</title>
+
+<meta
+name="description"
+content="Notebook 29 treats optical loss as a design constraint that determines which photonic cluster resources remain usable under realistic engineering limits."
+>
+
+<link rel="stylesheet" href="styles/site.css">
+<script defer src="js/dark-mode.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+<nav class="site-nav">
+<a class="site-brand" href="index.html">Integrated Quantum Photonics</a>
+
+<div class="nav-links">
+<a href="index.html">Xu Yi lab</a>
+<a href="https://github.com/thinkthoughts/integrated-quantum-photonics">GitHub</a>
+<a href="https://labreports.app">Lab Reports</a>
+<button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">◐</button>
+</div>
+</nav>
+</header>
+
+<main class="page">
+<article class="report">
+
+<header class="report-header">
+<p class="eyebrow">Notebook 29</p>
+
+<h1>Loss as Design Constraint</h1>
+
+<p class="dek">
+Loss determines which photonic resources remain usable. This notebook
+treats loss as an engineering constraint that reshapes the ideal graph
+into an admissible computational resource.
+</p>
+</header>
+
+<nav class="card">
+<strong>Navigation:</strong>
+<a href="index.html">Index</a> ·
+<a href="00.html">00</a> ·
+<a href="01.html">01</a> ·
+<a href="05.html">05</a> ·
+<a href="07.html">07</a> ·
+<a href="11.html">11</a> ·
+<a href="13.html">13</a> ·
+<a href="17.html">17</a> ·
+<a href="23.html">23</a> ·
+<strong>29</strong> ·
+<a href="31.html">31</a> ·
+<a href="37.html">37</a> ·
+<a href="43.html">43</a> ·
+<a href="49.html">49</a> ·
+<a href="53.html">53</a> ·
+<a href="61.html">61</a> ·
+<a href="67.html">67</a>
+</nav>
+
+<figure class="hero-figure">
+<img src="images/29_engineering_summary.png" alt="Summary diagram showing optical loss as a design constraint connecting resource budgets, constraint maps, usable graphs, and sensitivity rankings.">
+<figcaption>
+Loss turns an ideal photonic graph into an engineering-constrained usable resource.
+</figcaption>
+</figure>
+
+<section>
+<h2>Overview</h2>
+
+<p>
+Cluster-state photonic architectures need large entangled graphs, but every realistic
+implementation introduces loss through resonators, couplers, routing, filters,
+detectors, packaging, and measurement.
+</p>
+
+<p>
+Notebook 29 treats loss as a constraint on admissible computation:
+the question is not only whether an ideal graph can be written down, but which
+parts of the resource survive the full optical budget.
+</p>
+
+<pre><code>ideal cluster resource
+→ optical loss channels
+→ resource budget
+→ constraint interaction map
+→ usable graph
+→ sensitivity ranking</code></pre>
+</section>
+
+<section>
+<h2>Generated figures</h2>
+
+<figure class="hero-figure">
+<img src="images/29_complete_pipeline.png" alt="Complete pipeline from ideal photonic resource through loss constraints to usable integrated quantum photonic computation.">
+<figcaption>
+The complete pipeline tracks how ideal resources become constrained hardware resources.
+</figcaption>
+</figure>
+
+<figure class="hero-figure">
+<img src="images/29_resource_budget_vs_loss.png" alt="Chart comparing available quantum resource budget against accumulated optical loss.">
+<figcaption>
+The usable resource budget shrinks as optical loss accumulates.
+</figcaption>
+</figure>
+
+<figure class="hero-figure">
+<img src="images/29_constraint_waterfall.png" alt="Waterfall chart showing how successive engineering constraints reduce usable photonic resources.">
+<figcaption>
+Each engineering layer removes part of the ideal resource.
+</figcaption>
+</figure>
+
+<figure class="hero-figure">
+<img src="images/29_constraint_interaction_map.png" alt="Interaction map showing how fabrication, routing, detector efficiency, coupling, and resonator loss interact.">
+<figcaption>
+Loss constraints interact across the device stack rather than acting independently.
+</figcaption>
+</figure>
+
+<figure class="hero-figure">
+<img src="images/29_ideal_vs_usable_graph.png" alt="Comparison between an ideal cluster graph and the reduced usable graph after loss constraints.">
+<figcaption>
+The usable graph is the part of the ideal graph that survives engineering constraints.
+</figcaption>
+</figure>
+
+<figure class="hero-figure">
+<img src="images/29_sensitivity_ranking.png" alt="Ranking of which loss mechanisms most strongly affect usable photonic resources.">
+<figcaption>
+Sensitivity ranking identifies which loss channels most deserve engineering effort.
+</figcaption>
+</figure>
+</section>
+
+<section>
+<h2>Engineering questions</h2>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Constraint</th>
+<th>Question</th>
+<th>Next notebook</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Loss budget</td>
+<td>How much optical loss can the resource tolerate?</td>
+<td><strong>Current notebook</strong></td>
+</tr>
+
+<tr>
+<td>Usable graph</td>
+<td>Which part of the ideal cluster graph remains computationally useful?</td>
+<td><strong>Current notebook</strong></td>
+</tr>
+
+<tr>
+<td>Sensitivity</td>
+<td>Which loss mechanisms dominate the engineering roadmap?</td>
+<td><strong>Current notebook</strong></td>
+</tr>
+
+<tr>
+<td>Characterization</td>
+<td>How are these loss channels measured experimentally?</td>
+<td><a href="31.html">31 — Loss Characterization</a></td>
+</tr>
+
+<tr>
+<td>Error thresholds</td>
+<td>When do losses exceed the fault-tolerance budget?</td>
+<td><a href="43.html">43 — Error-Correction Thresholds</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section>
+<h2>29_loss_as_design_constraint.ipynb</h2>
+
+<p>
+<a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/29_loss_as_design_constraint.ipynb">
+Notebook 29 on Google Colab
+</a>
+</p>
+</section>
+
+<nav class="card">
+<strong>Previous:</strong>
+<a href="23.html">23 — Integrated Photonic Circuits</a>
+|
+<strong>Next:</strong>
+<a href="31.html">31 — Loss Characterization</a>
+</nav>
+
+</article>
+</main>
+
+</body>
+</html>

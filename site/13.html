@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>13 — Two-Mode Squeezing | Integrated Quantum Photonics</title>
+
+<meta
+name="description"
+content="Notebook 13 explains how Kerr-mediated four-wave mixing generates correlated mode pairs through two-mode squeezing, producing the fundamental quantum resource used for scalable photonic entanglement."
+>
+
+<link rel="stylesheet" href="styles/site.css">
+<script defer src="js/dark-mode.js"></script>
+
+</head>
+
+<body>
+
+<header class="site-header">
+<nav class="site-nav">
+
+<a class="site-brand" href="index.html">
+Integrated Quantum Photonics
+</a>
+
+<div class="nav-links">
+<a href="index.html">Xu Yi lab</a>
+<a href="https://github.com/thinkthoughts/integrated-quantum-photonics">GitHub</a>
+<a href="https://labreports.app">Lab Reports</a>
+
+<button
+id="theme-toggle"
+class="theme-toggle"
+type="button"
+aria-label="Toggle dark mode">◐</button>
+
+</div>
+
+</nav>
+</header>
+
+<main class="page">
+<article class="report">
+
+<header class="report-header">
+
+<p class="eyebrow">Notebook 13</p>
+
+<h1>Two-Mode Squeezing</h1>
+
+<p class="dek">
+Four-wave mixing produces correlated frequency pairs whose quantum
+fluctuations become the fundamental resource for scalable
+continuous-variable photonic quantum computing.
+</p>
+
+</header>
+
+<nav class="card">
+
+<strong>Navigation:</strong>
+
+<a href="index.html">Index</a> ·
+<a href="00.html">00</a> ·
+<a href="01.html">01</a> ·
+<a href="05.html">05</a> ·
+<a href="07.html">07</a> ·
+<a href="11.html">11</a> ·
+<strong>13</strong> ·
+<a href="17.html">17</a> ·
+<a href="23.html">23</a> ·
+<a href="29.html">29</a> ·
+<a href="31.html">31</a> ·
+<a href="37.html">37</a> ·
+<a href="43.html">43</a> ·
+<a href="49.html">49</a> ·
+<a href="49.html">53</a> ·
+<a href="53.html">61</a> ·
+<a href="67.html">67</a>
+
+</nav>
+
+<figure class="hero-figure">
+
+<img
+src="images/13_summary.png"
+alt="Summary diagram showing pair generation, squeezing, pair correlations, resource scaling, and continuous-variable quantum resources."
+>
+
+<figcaption>
+Two-mode squeezing transforms nonlinear optical interactions into reusable quantum correlations.
+</figcaption>
+
+</figure>
+
+<section>
+
+<h2>Overview</h2>
+
+<p>
+
+Kerr nonlinearity generates more than additional optical frequencies.
+Energy conservation creates correlated signal and idler modes whose
+joint quantum state exhibits squeezing and entanglement.
+
+</p>
+
+<p>
+
+Rather than treating every frequency independently, pairs become the
+elementary quantum resource from which larger photonic quantum states
+are assembled.
+
+</p>
+
+<pre><code>
+Kerr interaction
+→ four-wave mixing
+→ signal–idler pair
+→ two-mode squeezing
+→ correlated quantum resource
+→ scalable entanglement
+</code></pre>
+
+<p>
+
+Notebook 13 explains how nonlinear optics becomes quantum information
+through correlated optical mode pairs.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Generated figures</h2>
+
+<figure class="hero-figure">
+
+<img
+src="images/13_pair_generation.png"
+alt="Diagram illustrating signal-idler pair generation from a nonlinear optical interaction."
+>
+
+<figcaption>
+Four-wave mixing naturally creates correlated frequency pairs.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/13_phase_space_cartoon.png"
+alt="Phase-space illustration of two-mode squeezing showing correlated quantum fluctuations."
+>
+
+<figcaption>
+Two-mode squeezing redistributes quantum uncertainty into correlated quadratures.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/13_comb_pair_structure.png"
+alt="Frequency comb showing symmetric signal-idler mode pairs."
+>
+
+<figcaption>
+Comb modes organize naturally into symmetric quantum-correlated pairs.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/13_correlation_matrix.png"
+alt="Correlation matrix highlighting pairwise quantum correlations among comb modes."
+>
+
+<figcaption>
+Correlations reveal the emerging graph structure connecting optical modes.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/13_cascaded_pair_growth.png"
+alt="Diagram showing cascaded generation of additional correlated mode pairs."
+>
+
+<figcaption>
+Repeated nonlinear interactions expand the number of usable quantum resources.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/13_resource_scaling.png"
+alt="Resource scaling diagram showing growth in quantum resources as additional squeezed pairs are generated."
+>
+
+<figcaption>
+Resource scaling comes from generating many correlated pairs within one integrated device.
+</figcaption>
+
+</figure>
+
+</section>
+
+<section>
+
+<h2>Engineering questions</h2>
+
+<div class="table-wrap">
+
+<table>
+
+<thead>
+<tr>
+<th>Stage</th>
+<th>Question</th>
+<th>Next notebook</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Pair generation</td>
+<td>Which resonator modes become correlated?</td>
+<td><strong>Current notebook</strong></td>
+</tr>
+
+<tr>
+<td>Two-mode squeezing</td>
+<td>How are quantum fluctuations redistributed?</td>
+<td><strong>Current notebook</strong></td>
+</tr>
+
+<tr>
+<td>Many-mode entanglement</td>
+<td>How do many squeezed pairs become graph states?</td>
+<td><a href="17.html">17 — Many-Mode Entanglement</a></td>
+</tr>
+
+<tr>
+<td>Integrated photonic circuits</td>
+<td>How are squeezed resources routed on chip?</td>
+<td><a href="23.html">23 — Integrated Photonic Circuits</a></td>
+</tr>
+
+<tr>
+<td>Loss</td>
+<td>How do optical losses degrade squeezing?</td>
+<td><a href="29.html">29 — Loss as Design Constraint</a></td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>13_two_mode_squeezing.ipynb</h2>
+
+<p>
+
+<a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/13_two_mode_squeezing.ipynb">
+
+Notebook 13 on Google Colab
+
+</a>
+
+</p>
+
+</section>
+
+<nav class="card">
+
+<strong>Previous:</strong>
+
+<a href="11.html">11 — Kerr Nonlinearity</a>
+
+|
+
+<strong>Next:</strong>
+
+<a href="17.html">17 — Many-Mode Entanglement</a>
+
+</nav>
+
+</article>
+</main>
+
+</body>
+</html>

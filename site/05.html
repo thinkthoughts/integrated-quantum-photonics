@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>05 — Frequency Multiplexing | Integrated Quantum Photonics</title>
+
+  <meta
+    name="description"
+    content="Notebook 05 introduces frequency multiplexing as the scalable engineering strategy that replaces hardware replication with many optical modes."
+  >
+
+  <link rel="stylesheet" href="styles/site.css">
+  <script defer src="js/dark-mode.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+<nav class="site-nav">
+<a class="site-brand" href="index.html">
+Integrated Quantum Photonics
+</a>
+
+<div class="nav-links">
+<a href="index.html">Xu Yi lab</a>
+<a href="https://github.com/thinkthoughts/integrated-quantum-photonics">GitHub</a>
+<a href="https://labreports.app">Lab Reports</a>
+<button id="theme-toggle"
+class="theme-toggle"
+type="button"
+aria-label="Toggle dark mode">◐</button>
+</div>
+</nav>
+</header>
+
+<main class="page">
+<article class="report">
+
+<header class="report-header">
+
+<p class="eyebrow">Notebook 05</p>
+
+<h1>Frequency Multiplexing</h1>
+
+<p class="dek">
+Frequency multiplexing changes the scaling variable.
+Instead of manufacturing one quantum device per channel,
+a single integrated resonator can support many optical modes.
+</p>
+
+</header>
+
+<nav class="card">
+
+<strong>Navigation:</strong>
+
+<a href="index.html">Index</a> ·
+<a href="00.html">00</a> ·
+<a href="01.html">01</a> ·
+<strong>05</strong> ·
+<a href="07.html">07</a> ·
+<a href="11.html">11</a> ·
+<a href="13.html">13</a> ·
+<a href="17.html">17</a> ·
+<a href="23.html">23</a> ·
+<a href="29.html">29</a> ·
+<a href="31.html">31</a> ·
+<a href="37.html">37</a> ·
+<a href="43.html">43</a> ·
+<a href="49.html">49</a> ·
+<a href="53.html">53</a> ·
+<a href="61.html">61</a> ·
+<a href="67.html">67</a>
+
+</nav>
+
+<figure class="hero-figure">
+
+<img
+src="images/05_engineering_summary.png"
+alt="Engineering summary showing the transition from replicated hardware to frequency multiplexing."
+>
+
+<figcaption>
+Frequency multiplexing replaces hardware replication with
+structured optical modes.
+</figcaption>
+
+</figure>
+
+<section>
+
+<h2>Overview</h2>
+
+<p>
+
+Notebook 01 established that hardware replication eventually
+becomes the dominant systems bottleneck.
+
+Notebook 05 introduces the engineering solution:
+increase quantum resources by creating many frequency channels
+inside a single integrated photonic device.
+
+</p>
+
+<p>
+
+Rather than scaling
+
+</p>
+
+<pre><code>
+devices
+→ channels
+</code></pre>
+
+<p>
+
+the architecture becomes
+
+</p>
+
+<pre><code>
+device
+→ many optical modes
+→ many quantum channels
+</code></pre>
+
+<p>
+
+Frequency multiplexing therefore shifts the engineering problem
+from fabrication toward modal control.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Generated figures</h2>
+
+<figure class="hero-figure">
+
+<img
+src="images/05_replication_to_modes.png"
+alt="Transition from replicated hardware channels to multiplexed optical modes."
+>
+
+<figcaption>
+The primary engineering transition is from replicated devices
+to multiplexed frequency modes.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/05_channel_scaling.png"
+alt="Comparison between channel growth by replication and channel growth through multiplexing."
+>
+
+<figcaption>
+Channel count grows much more efficiently when additional
+modes are created inside one resonator.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/05_modes_as_resources.png"
+alt="Frequency modes represented as reusable quantum resources."
+>
+
+<figcaption>
+Individual optical modes become computational resources.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/05_multiplexing_pipeline.png"
+alt="Pipeline showing device, optical modes, multiplexing, and scalable quantum resources."
+>
+
+<figcaption>
+Multiplexing converts one integrated device into many usable
+quantum channels.
+</figcaption>
+
+</figure>
+
+<figure class="hero-figure">
+
+<img
+src="images/05_frequency_comb.png"
+alt="Frequency comb illustrating evenly spaced optical channels."
+>
+
+<figcaption>
+Frequency combs provide the physical implementation of
+frequency multiplexing.
+</figcaption>
+
+</figure>
+
+</section>
+
+<section>
+
+<h2>Engineering questions</h2>
+
+<div class="table-wrap">
+
+<table>
+
+<thead>
+<tr>
+<th>Question</th>
+<th>Purpose</th>
+<th>Next notebook</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Can one device support many channels?</td>
+<td>Motivate multiplexing</td>
+<td><strong>Current notebook</strong></td>
+</tr>
+
+<tr>
+<td>How are optical modes generated?</td>
+<td>Frequency comb physics</td>
+<td><a href="07.html">07 — Quantum Frequency Combs</a></td>
+</tr>
+
+<tr>
+<td>How are modes coupled?</td>
+<td>Kerr interaction</td>
+<td><a href="11.html">11 — Kerr Nonlinearity</a></td>
+</tr>
+
+<tr>
+<td>How do coupled modes become quantum resources?</td>
+<td>Squeezing</td>
+<td><a href="13.html">13 — Two-mode Squeezing</a></td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>05_frequency_multiplexing.ipynb</h2>
+
+<p>
+
+<a href="https://colab.research.google.com/github/thinkthoughts/integrated-quantum-photonics/blob/main/notebooks/05_frequency_multiplexing.ipynb">
+
+Notebook 05 on Google Colab
+
+</a>
+
+</p>
+
+</section>
+
+<nav class="card">
+
+<strong>Previous:</strong>
+
+<a href="01.html">01 — Scaling Problem</a>
+
+|
+
+<strong>Next:</strong>
+
+<a href="07.html">07 — Quantum Frequency Combs</a>
+
+</nav>
+
+</article>
+</main>
+
+</body>
+</html>
